@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="myspring.user.dao.mapper.MemberMapper">
+<!-- <mapper namespace="MemberNS"> -->
+
+	<!-- 회원가입 -->
+	<insert id="insertUser" parameterType="Member">
+		insert into member
+		values(#{mem_id},#{mem_pw},#{name})
+	</insert>
+	
+	<!-- 로그인 -->
+	<select id="login" resultType="Member">
+		select mem_id, mem_pw, name
+		from member
+		where mem_id = #{mem_id}
+		and mem_pw = #{mem_pw}
+	</select>
+	
+	<!-- 마스터 페이지 회원 조회 -->
+	<select id="master" resultType="Member">
+		select mem_id, mem_pw, name
+		from member
+		order by mem_id DESC
+	</select>
+	
+	<!-- 마스터 페이지 한 명씩 불러오기 -->
+	<select id="masterView" resultType="Member">
+		select mem_id, mem_pw, name
+			from member
+			where mem_id = #{mem_id}
+			
+	</select>
+	<!-- 마스터 페이지 회원 삭제 -->
+	<delete id="delete" parameterType="String">
+		delete
+		from member
+		where mem_id = #{mem_id}
+	</delete>
+	<!-- 게시물 업데이트 -->
+	<update id="update" parameterType="Member">
+		update member
+			set mem_id = #{mem_id},
+				mem_pw = #{mem_pw},
+				name = #{name}
+			where mem_id = #{mem_id}
+	</update>
+	
+</mapper>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

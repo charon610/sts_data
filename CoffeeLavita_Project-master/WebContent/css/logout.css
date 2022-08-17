@@ -1,0 +1,109 @@
+@charset "EUC-KR";
+@media screen and (min-width:768px){
+    html,body{
+        height:100%;
+        background:url(../image/log.png) no-repeat;
+    }
+    
+    #wrap{
+        width:100%;
+        height:100%;
+        position: relative;
+    }
+    #logoutBox{
+        width:500px;
+        height:500px;
+        background: rgba(255,255,255,0.8);
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        padding:50px 40px;
+    }
+    
+    .headText{
+        text-align: center;
+        font-size: 34px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    .headText2{
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 25px;
+    }
+    .subText{
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+    
+    .buttonBtn{
+        text-align: center;
+    }
+    .buttonBtn>button{
+        width:100px;
+        height: 40px;
+        font-weight: bold;
+    }
+    .buttonBtn a{
+        width:100%;
+        display: block;
+        line-height: 40px;
+        color:#000;
+    }
+}
+
+@media screen and (max-width:767px){
+    html,body{
+        height:100%;
+        background:url(../image/log.png) no-repeat;
+    }
+    
+    #wrap{
+        width:100%;
+        height:100%;
+        position: relative;
+    }
+    #logoutBox{
+        width:90%;
+        background: rgba(255,255,255,0.8);
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        padding:40px 20px;
+    }
+    
+    .headText{
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .headText2{
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 25px;
+    }
+    .subText{
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    
+    .buttonBtn{
+        text-align: center;
+    }
+    .buttonBtn>button{
+        width:100px;
+        height: 40px;
+        font-weight: bold;
+    }
+    .buttonBtn a{
+        width:100%;
+        display: block;
+        line-height: 40px;
+        color:#000;
+    }
+} 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/myspring/user/controller/BoardController.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/src/myspring/user/controller/UserController.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/src/myspring/user/dao/BoardDAO.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/src/myspring/user/dao/BoardDaoImplMapper.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/src/myspring/user/dao/MemberDao.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/src/myspring/user/dao/MemberDaoImplMapper.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/src/myspring/user/service/BoardService.java" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/src/myspring/user/service/BoardServiceImple.java" charset="x-windows-949" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,251 @@
+@charset "EUC-KR";
+@media screen and (min-width:1025px){
+	/*claim srart*/
+	.content-claim{
+		width:100%;
+	}
+	.content-claim .background-top{
+		width:100%;
+		height:450px;
+		background:url(../image/mypage-claim.png)no-repeat;
+	}
+	.background-top>h2{
+		font-size:40px;
+		font-weight:bold;
+		text-align:center;
+		line-height:450px;
+		color:#ffffff;
+	}
+	.claim-bottom{
+		width:1200px;
+		margin:0 auto;
+		padding:100px 0;
+		color:#444444;
+		overflow:hidden;
+		position:relative;
+	}
+	.claim-left{
+		width:880px;
+		height:100%;
+		float:left;
+		border-top:2px solid #666;
+    }
+    table{width:100%; border-spacing:0; color: #666;}
+    label{
+        width:30%;
+        display: inline-block;
+        padding:10px 0 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        background: #f4f4f2;
+        box-sizing: border-box;
+        margin-right:20px;
+    }
+    td{border-bottom:1px solid #d9d9d9;}
+    #root h1{line-height: 50px;}
+    .content-height{
+        height:250px;
+        display: flex;
+        align-items: center;
+    }
+    .content-height>label{height:100%;}
+    .content-box{
+        display: inline-block;
+        border: 1px solid #d9d9d9;
+        width:60%;
+        height:90%;
+        box-sizing: border-box;
+		padding:20px;
+		color:#666;
+		font-weight: bold;
+	}
+	input[type="text"]{
+		width:60%;
+		height: 25px;
+		border: 1px solid #d9d9d9;
+		color:#666;
+		padding-left:20px;
+	}
+	.btnBox{
+		margin: 0 auto;
+    	width: 100%;
+    	text-align: center;
+    	padding: 20px 0;
+	}
+	.btnBox>button{
+		width:100px;
+		height:40px;
+		border:none;
+		color:#666;
+		background:#f4f4f2;
+		font-weight: bold;
+	}
+	.update_btn{margin-right:20px;}
+		/*claim-end*/
+}
+
+/********************************************************테블릿*************************************************************/
+@media screen and (min-width:768px) and (max-width:1024px){
+	/*claim srart*/
+	.content-claim{
+		width:100%;
+	}
+	.content-claim .background-top{
+		width:100%;
+		height:450px;
+		background:url(../image/mypage-claim.png)no-repeat 45% 0;
+	}
+	.background-top>h2{
+		font-size:40px;
+		font-weight:bold;
+		text-align:center;
+		line-height:450px;
+		color:#ffffff;
+	}
+	.claim-bottom{
+		width:95%;
+		overflow: hidden;
+		margin:0 auto;
+		padding:100px 0;
+		color:#444444;
+		overflow:hidden;
+		position:relative;
+	}
+	.claim-left{
+		width:100%;
+	}
+    table{width:100%; border-spacing:0; color: #666;}
+    label{
+        width:30%;
+        display: inline-block;
+        padding:10px 0 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        background: #f4f4f2;
+        box-sizing: border-box;
+        margin-right:20px;
+    }
+    td{border-bottom:1px solid #d9d9d9;}
+    #root h1{line-height: 50px;}
+    .content-height{
+        height:250px;
+        display: flex;
+        align-items: center;
+    }
+    .content-height>label{height:100%;}
+    .content-box{
+        display: inline-block;
+        border: 1px solid #d9d9d9;
+        width:60%;
+        height:90%;
+        box-sizing: border-box;
+        padding:20px;
+	}
+	input[type="text"]{
+		width:60%;
+		height: 25px;
+		border: 1px solid #d9d9d9;
+		color:#666;
+		padding-left:20px;
+	}
+	.btnBox{
+		margin: 0 auto;
+    	width: 100%;
+    	text-align: center;
+    	padding: 20px 0;
+	}
+	.btnBox>button{
+		width:100px;
+		height:40px;
+		border:none;
+		color:#666;
+		background:#f4f4f2;
+		font-weight: bold;
+	}
+	.update_btn{margin-right:20px;}
+		/*claim-end*/
+
+}
+
+/***********************************************************핸드폰*********************************************************/
+@media screen and (max-width:767px){
+	/*claim srart*/
+	.content-claim{
+		width:100%;
+	}
+	.content-claim .background-top{
+		width:100%;
+		height:200px;
+		background:url(../image/mypage-claim.png)no-repeat 45% 0;
+	}
+	.background-top>h2{
+		font-size:20px;
+		font-weight:bold;
+		text-align:center;
+		line-height:200px;
+		color:#ffffff;
+	}
+	.claim-bottom{
+		width:95%;
+		overflow: hidden;
+		margin:0 auto;
+		padding:60px 0;
+		color:#444444;
+		overflow:hidden;
+		position:relative;
+	}
+	.claim-left{
+		width:100%;
+	}
+    table{width:100%; border-spacing:0; color: #666;}
+    label{
+        width:30%;
+        display: inline-block;
+        padding:10px 0 10px 20px;
+        font-size: 14px;
+        font-weight: bold;
+        background: #f4f4f2;
+        box-sizing: border-box;
+        margin-right:20px;
+    }
+    td{border-bottom:1px solid #d9d9d9;}
+    #root h1{line-height: 40px; font-size:20px;}
+    .content-height{
+        height:200px;
+        display: flex;
+        align-items: center;
+    }
+    .content-height>label{height:100%;}
+    .content-box{
+        display: inline-block;
+        border: 1px solid #d9d9d9;
+        width:60%;
+        height:90%;
+        box-sizing: border-box;
+        padding:20px;
+	}
+	input[type="text"]{
+		width:60%;
+		height: 25px;
+		border: 1px solid #d9d9d9;
+		color:#666;
+		padding-left:10px;
+	}
+	.btnBox{
+		margin: 0 auto;
+    	width: 100%;
+    	text-align: center;
+    	padding: 20px 0;
+	}
+	.btnBox>button{
+		width:100px;
+		height:40px;
+		border:none;
+		color:#666;
+		background:#f4f4f2;
+		font-weight: bold;
+	}
+	.update_btn{margin-right:20px;}
+		/*claim-end*/
+
+}
