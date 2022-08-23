@@ -9,7 +9,7 @@
 	style="background-image: url('/images/projectpage.jpg'); background-repeat:space; width:100%; height: 500px;"
 	>
 	<div class="inner-wrapper">
-		<h1 style="font-size: 35px;">프로젝트 소개</h1>
+		<h1 style="font-size: 35px;">사이트 소개</h1>
 	</div>
 </section>
 <div class="clearfix"></div>
@@ -18,7 +18,7 @@
 <br>
 <br>
 <section style="text-align: center;">
-	<img src="/images/about.png" />
+	<img src="/images/about.jpg";/>
 </section>
 <br>
 <br>

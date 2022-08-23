@@ -9,9 +9,9 @@
 	.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {background-color: white; border-color: black; color: black}
 </style>
 
-<section class="image-head-wrapper" style="background-image: url('/images/projectpage.jpg'); background-repeat:space; width:100%; height: 500px;">
+<section class="image-head-wrapper" style="background-image: url('/images/shoping.png'); background-repeat:space; width:100%; height: 500px;">
   <div class="inner-wrapper">
-    <h1>고캠핑 쇼핑몰에 오신것을 환영합니다!</h1>
+    <h1>캠핑플러스와 풍성한 캠핑라이프를!</h1>
   </div>
 </section>
   <div class="clearfix"></div>
@@ -27,16 +27,16 @@
                 <c:url value="/displayImg" var="url">
     	        <c:param name="filename" value="${list.uploadpath}/s_${list.img_name}_${list.filename}" />
     	        </c:url>
-                <a href="single-blog.html"><img alt="image" class="img-responsive" src="${url}"></a>
+                <a href="goodsinfo?goods_idx=${list.goods_idx}"><img alt="image" class="img-responsive" src="${url}"></a>
               </div>
             </div>
           </div>
         <div class="side-B">
           <div class="product-desc-side">
-            <h3><a href="single-blog.html">${ list.goods_name }</a></h3>
+            <h3><a href="goodsinfo?goods_idx=${list.goods_idx}">${ list.goods_name }</a></h3>
               <p>${ list.goods_info }</p>
               <p>${ list.goods_price }원</p>
-              <div class="links"><a href="single-blog.html">구매하기</a></div>
+              <div class="links"><a href="goodsinfo?goods_idx=${list.goods_idx}">구매하기</a></div>
           </div>
         </div>
       </div>

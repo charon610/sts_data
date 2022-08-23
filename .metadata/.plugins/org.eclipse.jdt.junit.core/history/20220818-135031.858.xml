@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="BoardMapperTest" project="ex02" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="org.zerock.mapper.BoardMapperTest" time="0.111" displayname="BoardMapperTest" uniqueid="[engine:junit-vintage]/[runner:org.zerock.mapper.BoardMapperTest]">
-    <testcase name="testGetList" classname="org.zerock.mapper.BoardMapperTest" time="0.111" displayname="testGetList" uniqueid="[engine:junit-vintage]/[runner:org.zerock.mapper.BoardMapperTest]/[test:testGetList(org.zerock.mapper.BoardMapperTest)]"/>
-  </testsuite>
-</testrun>

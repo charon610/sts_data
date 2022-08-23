@@ -26,7 +26,7 @@
 </style>
 
 <section class="image-head-wrapper"
-	style="background-image: url('/images/campingboard.jpg'); background-repeat: round; width:100%; height: 500px;">
+	style="background-image: url('/images/campingboard.jpg'); background-repeat: no-repeat; width:100%; height: 500px;">
 	<div class="inner-wrapper">
 		<h1 style="font-size: 35px;">캠핑 후기</h1>
 	</div>

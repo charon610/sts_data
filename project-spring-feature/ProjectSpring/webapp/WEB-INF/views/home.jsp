@@ -31,7 +31,7 @@
     <div class="item">
       <img src="images/slideimage1.jpg" style="width:100%; height: 500px" alt="Third slide">
       <div class="carousel-caption">
-				<a href="/menus/news"><span style="font-size: 40px; color: #888888; background-color: white; border-radius: 20px;">&nbsp;캠핑용품은 여기서 구매하세요!&nbsp;</span></a>
+				<a href="/shopping"><span style="font-size: 40px; color: #888888; background-color: white; border-radius: 20px;">&nbsp;캠핑용품은 여기서 구매하세요!&nbsp;</span></a>
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@
       <div class="col-md-3 col-sm-3 col-xs-6 width-50">
         <div class="service-details text-center">
           <div class="service-image">
-            <img alt="image" class="img-responsive" src="images/icons/community.png" width="48" height="48">
+            <a href="/PBoard/List?page=1&perPageNum=20"><img alt="image" class="img-responsive" src="images/icons/community.png" width="48" height="48"></a>
           </div>
 
           <h4><a href="/PBoard/List?page=1&perPageNum=20">캠핑 후기</a></h4>
@@ -69,15 +69,15 @@
       <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
         <div class="service-details text-center">
           <div class="service-image">
-            <img alt="image" class="img-responsive" src="images/icons/shop.png" width="48" height="48">
+            <a href="/shopping"><img alt="image" class="img-responsive" src="images/icons/shop.png" width="48" height="48"></a>
           </div>
-          <h4><a href="/menus/shopping">캠핑용품 구매</a></h4>
+          <h4><a href="/shopping">캠핑용품 구매</a></h4>
         </div>
       </div>
       <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
         <div class="service-details text-center">
           <div class="service-image">
-            <img alt="image" class="img-responsive" src="images/icons/qna.png" width="48" height="48">
+            <a href="/qna/list"><img alt="image" class="img-responsive" src="images/icons/qna.png" width="48" height="48"></a>
           </div>
           <h4><a href="/qna/list">문의 게시판</a></h4>
         </div>
@@ -137,7 +137,7 @@
 							<h1 style="padding-top: 40px;">날씨 정보</h1><br>
 							<h4>캠핑장 가기전에 미리 날씨 확인해보세요 !</h4>
 							<button type="button" class="btn btn-default"
-								onclick="javascript:searchWithLatLng();">지금 이곳의 날씨는?</button>
+								onclick="javascript:searchWithLatLng(); this.onclick=null;">지금 이곳의 날씨는?</button>
 						</div>
 		        <div class="col-md-6 col-sm-6 col-xs-12">
 							<div id="weather"></div>
@@ -233,72 +233,6 @@ function getWeatherEngineData(LAT, LNG, MODE)
 </script>
 
 
-
-<!-- 더보기 4 x 2 -->
-<section class="resort-overview-block">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right">
-        <div class="side-A">
-          <div class="product-thumb">
-            <div class="image">
-              <a><img src="images/campingitem1.jpg" class="img-responsive" alt="image" width="280px" height="280px"></a>
-            </div>
-          </div>
-        </div>
-        <div class="side-B">
-          <div class="product-desc-side">
-            <h3><a href="/menus/news">텐트, 침낭 구입</a></h3>
-          </div>
-        </div>
-      </div>
-      <div class="clear"></div>
-      <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
-        <div class="side-A">
-          <div class="product-thumb">
-            <div class="image">
-							<a><img src="images/campingitem2.jpg" class="img-responsive" alt="image" width="280px" height="280px"></a>
-            </div>
-          </div>
-        </div>
-        <div class="side-B">
-          <div class="product-desc-side">
-            <h3><a href="/menus/news">버너, 랜턴, 화로 구입</a></h3>
-          </div>
-        </div>
-      </div>
-      <div class="clear"></div>
-      <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right">
-        <div class="side-A">
-          <div class="product-desc-side">
-            <h3><a href="/menus/news">취사도구, 소품 구입</a></h3>
-          </div>
-        </div>
-        <div class="side-B">
-          <div class="product-thumb">
-            <div class="image txt-rgt">
-             <a><img src="images/campingitem3.jpg" class="img-responsive" alt="image" width="280px" height="280px"></a>            </div>
-          </div>
-        </div>
-      </div>
-      <div class="clear"></div>
-      <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
-        <div class="side-A">
-          <div class="product-desc-side">
-            <h3><a href="/menus/news">간식거리 구입</a></h3>
-          </div>
-        </div>
-        <div class="side-B">
-          <div class="product-thumb txt-rgt">
-            <div class="image">
-              <a><img src="images/campingitem4.jpg" class="img-responsive" alt="image" width="280px" height="280px"></a></div>
-          </div>
-        </div>
-      </div>
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</section>
 
 
 <!-- 캐러셀2 -->

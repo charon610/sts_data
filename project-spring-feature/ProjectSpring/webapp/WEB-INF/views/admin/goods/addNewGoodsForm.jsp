@@ -154,27 +154,27 @@ $(document).ready(function(e) {
 			</caption>
 			
               <tr>
-                <td>제품이름</td>
+                <td>상품이름</td>
                 <td colspan="2"><input name="goods_name" type="text" /></td>
               </tr>
               <tr>
-                <td>제품가격</td>
+                <td>상품가격</td>
                 <td colspan="2"><input name="goods_price" type="text" />원</td>
               </tr>
               <tr>
-                <td>제품 구매 포인트</td>
+                <td>상품 구매 포인트</td>
                 <td colspan="2"><input name="goods_point" type="text" /></td>
               </tr>
               <tr>
-                <td>제품등록일</td>
+                <td>상품등록일</td>
                 <td colspan="2"><input name="goods_regdate" type="date" /></td>
               </tr>
               <tr>
-                <td>제품 배송비</td>
+                <td>상품 배송비</td>
                 <td colspan="2"><input name="delivery_price" type="text" /> 원</td>
               </tr>
               <tr>
-                <td>제품 도착 예정일</td>
+                <td>상품 도착 예정일</td>
                 <td colspan="2"><input name="delivery_date" type="date" /></td>
               </tr>
               <tr>
