@@ -2,6 +2,8 @@
 <aop-reference-model>
 <aop-project name="CoffeeLavita_Project-master"/>
 <aop-project name="test01"/>
+<aop-project name="bookShop01"/>
+<aop-project name="ProjectSpring_test"/>
 <aop-project name="ex00"/>
 <aop-project name="ex01"/>
 <aop-project name="ex02"/>

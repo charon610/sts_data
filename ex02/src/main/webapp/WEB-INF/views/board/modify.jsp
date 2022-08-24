@@ -86,11 +86,10 @@
 				$("#form").attr("action", "/board/modify").submit();
 			}else if (operation === 'list') {
 				//move to list
-				self.location = "/board/list";
-				return;
+				$("#form").attr("action", "/board/list").attr("method", "get");
+				$("#form").empty();
 			}
-			
-			
+			$("#form").submit();
 		});
 	});
 </script>
