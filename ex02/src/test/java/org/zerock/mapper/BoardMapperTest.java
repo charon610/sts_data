@@ -9,6 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.zerock.domain.BoardVO;
 import org.zerock.domain.Criteria;
+import org.zerock.domain.PageDTO;
 
 import lombok.Setter;
 import lombok.extern.log4j.Log4j;
@@ -88,6 +89,16 @@ public class BoardMapperTest {
 		List<BoardVO> list = mapper.getListWithPaging(cri);
 		
 		list.forEach(board -> log.info(board));
+	}
+	
+	@Test
+	public void testPageDTO() {  // pageDTO가 제대로 만들어졌는지 확인하는 코드
+		Criteria cri = new Criteria();
+		cri.setPageNum(21);
+		
+		PageDTO pageDTO = new PageDTO(cri, 260);  // Total 값이 251일 경우 endPage가 26이 나와야 정상
+		
+		log.info(pageDTO);
 	}
 	
 }

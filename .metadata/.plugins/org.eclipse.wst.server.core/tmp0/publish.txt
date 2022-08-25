@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Wed Aug 24 17:46:41 KST 2022
-org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ez220405\\.m2\\repository\\org\\springframework\\spring-web\\4.1.1.RELEASE\\spring-web-4.1.1.RELEASE.jar=C\:\\apache-tomcat-9\\wtpwebapps\\bookShop01\\WEB-INF\\lib\\spring-web-4.1.1.RELEASE.jar
-org.eclipse.jst.jee.server\:bookShop01=C\:\\apache-tomcat-9\\wtpwebapps\\bookShop01
+#Thu Aug 25 16:40:08 KST 2022
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ez220405\\.m2\\repository\\org\\springframework\\spring-web\\4.2.5.RELEASE\\spring-web-4.2.5.RELEASE.jar=C\:\\apache-tomcat-9\\wtpwebapps\\ProjectSpring\\WEB-INF\\lib\\spring-web-4.2.5.RELEASE.jar
+org.eclipse.jst.jee.server\:ProjectSpring=C\:\\apache-tomcat-9\\wtpwebapps\\ProjectSpring
