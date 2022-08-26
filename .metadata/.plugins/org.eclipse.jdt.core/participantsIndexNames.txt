@@ -15,6 +15,8 @@ D:\PSW\sts3_data\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\743414059
 \bookShop01\src\main\java
 D:\PSW\sts3_data\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\760050265.index
 \ProjectSpring_test\src\main\java
+D:\PSW\sts3_data\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2577869071.index
+\ex06\src\main\java
 D:\PSW\sts3_data\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2094002893.index
 \bookShop01\src\main\java
 D:\PSW\sts3_data\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\176448302.index
@@ -53,6 +55,8 @@ D:\PSW\sts3_data\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\144927346
 \ProjectSpring_test\src\main\java
 D:\PSW\sts3_data\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2472856907.index
 \ProjectSpring_test\src\main\java
+D:\PSW\sts3_data\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2604532876.index
+\ex06\src\main\java
 D:\PSW\sts3_data\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\250184921.index
 \ProjectSpring\src\main\java
 D:\PSW\sts3_data\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2415907875.index

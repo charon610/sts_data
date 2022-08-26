@@ -59,7 +59,7 @@ public class AdminController {
 //		return mv;  
 //	}
 	
-	// Member List with paging
+	// 멤버리스트 조회
 	@RequestMapping(value="/memberList", method=RequestMethod.GET)
 	public String memberList(Criteria cri, Model model) {
 		
@@ -74,7 +74,7 @@ public class AdminController {
 		return "admin/memberList";
 	}
 	
-	// member Update Form
+	// 멤버리스트 수정
 	@RequestMapping(value="/updateMemberForm", method=RequestMethod.GET)
 	public String updateMemberForm(MemberVo vo, Model model) {
 		
@@ -91,7 +91,7 @@ public class AdminController {
 		return "redirect:/memberList";
 	}
 	
-	// Delete Member
+	// 멤버 삭제
 	@RequestMapping("/Admin/delMember")
 	public String delete(String mem_id) {
 		adminService.deleteMember(mem_id);
@@ -100,8 +100,10 @@ public class AdminController {
 	}
 	
 	//--------------------------------------------
-	// goods
+	// 상품 등록
 	//--------------------------------------------
+	
+	// 상품 등록 화면
 	@RequestMapping(value="/addNewGoodsForm", method=RequestMethod.GET)
 	public String addNewGoodsForm() {
 		// temp 폴더 생성용
@@ -131,7 +133,7 @@ public class AdminController {
 		return "admin/adminMain";
 	}
 	
-	// goods Info
+	// 상품 정보 수정
 	@RequestMapping(value="/updateGoodsForm", method=RequestMethod.GET)
 	public String updateGoodsForm(GoodsVo goodsVo, Model model) {
 		
@@ -158,7 +160,7 @@ public class AdminController {
 		return new ResponseEntity<>(adminService.getImageList(goods_idx), HttpStatus.OK);
 	}
 	
-	
+	// 상품 삭제
 	@RequestMapping("/deleteGoods")
 	public String delete(@RequestParam("goods_idx") int goods_idx, Criteria cri, RedirectAttributes rttr)
 	{
