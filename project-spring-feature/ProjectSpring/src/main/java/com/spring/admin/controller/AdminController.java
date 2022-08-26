@@ -119,6 +119,8 @@ public class AdminController {
 		return "redirect:/admin";
 	}
 	
+	// 상품관리 화면
+	// 상품리스트 조회
 	@RequestMapping(value="/admin", method=RequestMethod.GET)
 	public String goodsList(Criteria cri, Model model) {
 		
@@ -142,7 +144,7 @@ public class AdminController {
 		return "admin/goods/updateGoodsForm";
 	}
 	
-	// goods Update
+	// 상품 수정
 	@RequestMapping(value="/updateGoods", method=RequestMethod.POST)
 	public String updateGoods(GoodsVo goodsVo, @ModelAttribute("cri") Criteria cri, RedirectAttributes rttr) {
 
@@ -192,15 +194,16 @@ public class AdminController {
 		
 	}
 	
-	
+	// 상품 구매 화면
 	@RequestMapping(value="/shopping", method=RequestMethod.GET)
-	public String shopping(Criteria cri, Model model, HttpServletRequest request, HttpServletResponse response) {
+	public String shopping(Criteria cri, Model model, HttpServletRequest request,
+						HttpServletResponse response) {
 
 		response.setContentType("text/html;charset=utf-8");
 		
 		model.addAttribute("shoppingList", adminService.getShoppingList(cri));
 		
-		// paging
+		// 페이징
 		PageMaker pageMaker = new PageMaker();
 		pageMaker.setCri(cri);
 		pageMaker.setTotalCount(adminService.goodsListCount());
@@ -210,6 +213,7 @@ public class AdminController {
 		return "menus/shopping";
 	}
 	
+	// 상품 상세화면
 	@RequestMapping(value="/goodsinfo", method=RequestMethod.GET)
 	public String goodsinfo(GoodsVo goodsVo, Model model) {
 		
